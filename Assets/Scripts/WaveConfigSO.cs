@@ -13,7 +13,7 @@ public class WaveConfigSO : ScriptableObject
     {
         return pathPrefab.GetChild(0);
     }
-    public List<Transform> GetWaypoints()
+    public List<Transform> GetWayPoints()
     {
         List<Transform> wayPoints = new List<Transform>();
         foreach (Transform child in pathPrefab)
@@ -22,7 +22,7 @@ public class WaveConfigSO : ScriptableObject
         }
         return wayPoints;
     }
-    
+
     public float GetMoveSpeed()
     {
         return moveSpeed;

@@ -185,6 +185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 50
   hitEffect: {fileID: 3610952996574000291, guid: 881da829cd049004d9bae489743b13d2, type: 3}
+  isCameraShake: 0
 --- !u!114 &4452266714659171002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -215,6 +216,6 @@ MonoBehaviour:
   baseFiringRate: 1
   projectileTimeLife: 5
   useAI: 1
-  firingRateVariance: 0.5
+  firingRateVariance: 1
   minimunFiringRate: 0.1
   isFiring: 0

@@ -49,7 +49,7 @@ public class Player : MonoBehaviour
     void OnMove(InputValue value)
     {
         valueInput = value.Get<Vector2>();
-        Debug.Log(valueInput);
+        // Debug.Log(valueInput);
     }
 
     void OnFire(InputValue value)
